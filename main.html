@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/components/style/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <!-- spldie js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <title>Luxury Presence</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__navbar">
+      <div class="header__navbar-container">
+        <div class="header__navbar-link">
+          <h4><a class="header__navbar-text" href="#">HOME</a></h4>
+          <h4><a class="header__navbar-text" href="#">LISTINGS</a></h4>
+        </div>
+        <div class="header__navbar-link-logo">
+          <img class="image" src="./components/img/Marci-Metzger.webp" alt="">
+        </div>
+        <div class="header__navbar-link">
+          <h4><a class="header__navbar-text" href="#">LET'S MOVE</a></h4>
+          <h4><a class="header__navbar-text" href="#">ABOUT US</a></h4>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="top">
+    <div class="top__mv">
+      <div class="top__mv-background-image">
+        <img class="image" src="./components/img/mv-lp.webp" alt="">
+      </div>
+      <div class="wrapper">
+        <div class="container">
+          <div class="top__mv-content">
+            <div class="top__mv-content-container">
+              <h4 class="top__mv-content-container--24">MARCI METZGER - THE RIDGE REALTY GROUP</h4>
+              <h1 class="top__mv-content-container--64">Pahrump Realtor</h1>
+              <div class="top__mv-content-btn">
+                <div class="top__mv-content-btn-container">
+                  <h4><a class="top__mv-content-btn-container--clr" href="#">Call Now</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__about">
+      <div class="wrapper">
+        <div class="container">
+          <div class="top__about-content">
+            <div class="top__about-content-container">
+              <h2 class="top__about-content-container--name">MARCI METZGER</h2>
+              <div class="top__about-content-image">
+                <img class="image" src="./components/img/marci-met.webp" alt="">
+              </div>
+              <h3 class="top__about-content-container--title">REALTOR FOR NEARLY 3 DECADES!</h3>
+              <div class="top__about-contact">
+                <i class="top__about-contact--icon fa-solid fa-phone"></i>
+                <h3 class="top__about-content-container--contact">206-919-6886</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__residential">
+      <div class="wrapper">
+        <div class="container">
+          <h2 class="top__residential-title">GET IT SOLD</h2>
+          <div class="top__residential-content">
+            <div class="top__residential-wrapper">
+              <div class="top__residential-container">
+                <img class="image" src="./components/img/residential1.webp" alt="">
+                <div class="top__residential-container-title">
+                  <h3 class="residential-title">Top Residential Sales Last 5 Years</h3>
+                  <p class="residential-details">We helped nearly 90 clients in 2021, and closed 28.5 million in sales!
+                    Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our
+                    clients deserve our best, & we want to make sure our best is better every year.</p>
+                </div>
+              </div>
+              <div class="top__residential-container">
+                <div class="top__residential-container-title">
+                  <h3 class="residential-title">Don't Just List it...</h3>
+                  <p class="residential-details">Get it SOLD! We exhaust every avenue to ensure our listings are at the
+                    fingertips of every possible
+                    buyer, getting you top dollar for your home.</p>
+                </div>
+                <img class="image" src="./components/img/residential2.webp" alt="">
+              </div>
+              <div class="top__residential-container">
+                <img class="image" src="./components/img/residential3.webp" alt="">
+                <div class="top__residential-container-title">
+                  <h3 class="residential-title">Guide to Buyers</h3>
+                  <p class="residential-details">Nobody knows the market like we do. Enjoy having a pro at your service.
+                    Market analysis, upgrades
+                    lists, contractors on speed dial, & more!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__search-list">
+      <div class="top__search-list-background">
+        <img class="image" src="./components/img/search-home.webp" alt="">
+      </div>
+      <div class="wrapper">
+        <div class="container">
+          <div class="top__search-list-wrapper">
+            <h3 class="top__search-list-title">FIND YOUR DREAM HOME</h3>
+            <section class="top__search-listings">
+              <h2 class="top__search-title">Search Listings</h2>
+              <form class="top__search-form">
+                <div class="top__form-row1">
+                  <div class="top__form-group">
+                    <label for="location">Location</label>
+                    <select id="location">
+                      <option value="">Select Location</option>
+                      <option>New York</option>
+                      <option>Los Angeles</option>
+                      <option>Chicago</option>
+                    </select>
+                  </div>
+
+                  <div class="top__form-group">
+                    <label for="type">Type</label>
+                    <select id="type">
+                      <option value="">Select Type</option>
+                      <option>House</option>
+                      <option>Condo</option>
+                      <option>Townhouse</option>
+                    </select>
+                  </div>
+
+                  <div class="top__form-group">
+                    <label for="sort">Sort By</label>
+                    <select id="sort">
+                      <option>Oldest</option>
+                      <option>Newest</option>
+                      <option>Price: Low to High</option>
+                      <option>Price: High to Low</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="top__form-row2">
+                  <div class="top__form-group1">
+                    <div class="top__form-group-container">
+                      <label for="bedrooms">Bedrooms</label>
+                      <select id="bedrooms">
+                        <option>1+</option>
+                        <option>2+</option>
+                        <option>3+</option>
+                      </select>
+                    </div>
+                    <div class="top__form-group-container">
+                      <label for="baths">Baths</label>
+                      <select id="baths">
+                        <option>1+</option>
+                        <option>2+</option>
+                        <option>3+</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="top__form-group1">
+                    <div class="top__form-group-container">
+                      <label for="min-price">Min Price</label>
+                      <input type="number" id="min-price" placeholder="₱0" />
+                    </div>
+                    <div class="top__form-group-container">
+                      <label for="max-price">Max Price</label>
+                      <input type="number" id="max-price" placeholder="₱10,000,000" />
+                    </div>
+                  </div>
+                  <div class="top__form-actions">
+                    <button type="submit" class="top__btn-search">Search Now</button>
+                  </div>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__pg-slider">
+      <div class="wrapper">
+        <div class="container">
+          <h3 class="top__pg-slider-title">Photo Gallery</h3>
+          <div class="top__pg-slider-wrapper">
+            <div class="top__pg-slider-container">
+              <section id="main-carousel" class="splide" aria-label="Photo Gallery">
+                <div class="top__pg-slider-card-wrapper splide__track">
+                  <ul class="top__pg-slider-card-container splide__list">
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image1.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image2.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image3.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image4.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image5.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image6.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image7.webp" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <section id="thumbnail-carousel" class="splide" aria-label="Photo Gallery">
+                <div class="top__pg-slider-card-wrapper1 splide__track">
+                  <ul class="top__pg-slider-card-container splide__list">
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image1.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image2.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image3.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image4.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image5.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image6.webp" alt="">
+                    </li>
+                    <li class="top__pg-card splide__slide">
+                      <img class="image" src="./components/img/pg-image/pg-image7.webp" alt="">
+                    </li>
+                  </ul>
+                </div>
+                <div class="top__splide-arrow-container splide__arrows">
+                  <button class="top__splide-arrow splide__arrow--prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="top__splide-arrow splide__arrow--next">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__services">
+      <div class="wrapper">
+        <div class="container top__services-wrapper">
+          <h3 class="top__services-title">Our Services</h3>
+          <div class="top__services-container">
+            <div class="top__services-container-content">
+              <img class="top__services-image image" src="./components/img/services-image/services-image1.webp" alt="">
+              <div class="top__services-details">
+                <h4 class="top__services-details-title">Real Estate Done Right</h4>
+                <p class="top__services-desc">Nervous about your property adventure? Don’t be. Whether you're getting
+                  ready to buy or sell your
+                  residence, looking at investment properties, or just curious about the markets, our team ensures you
+                  get the best experience possible!</p>
+              </div>
+            </div>
+            <div class="top__services-container-content">
+              <img class="top__services-image image" src="./components/img/services-image/sevices-image2.webp" alt="">
+              <div class="top__services-details">
+                <h4 class="top__services-details-title">Real Estate Done Right</h4>
+                <p class="top__services-desc">Large or small, condo or mansion, we can find it and get at the price
+                  that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this
+                  community. Happy to help you find where to put you hard-earned dollars.</p>
+              </div>
+            </div>
+            <div class="top__services-container-content">
+              <img class="top__services-image image" src="./components/img/services-image/services-image3.webp" alt="">
+              <div class="top__services-details">
+                <h4 class="top__services-details-title">Real Estate Done Right</h4>
+                <p class="top__services-desc">If you have questions about affordability, credit, and loan options, trust
+                  us to connect you with the right people to get the answers you need in a timely fashion. We make sure
+                  you feel confident and educated every step of the way.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__soc-med">
+      <div class="wrapper">
+        <div class="container">
+          <div class="top__soc-med-wrapper">
+            <div class="top__soc-med-container">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-yelp"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top__contact">
+      <div class="wrapper">
+        <div class="container">
+          <div class="top__contact-bg-image">
+            <img class="image" src="./components/img/realstatebg.jpg" alt="">
+          </div>
+          <div class="top__contact-wrapper">
+            <div class="top__contact-container">
+              <div class="top__contact-info">
+                <div class="top__contact-info-details">
+                  <div class="top__info-details-container">
+                    <h4 class="top__info-details-whatsapp">
+                      Contact us on
+                      <a class="top__info-details-waicon"
+                        href="https://api.whatsapp.com/send/?phone=14259412560&text&type=phone_number&app_absent=0">
+                        WhatsApp
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </a>
+                    </h4>
+                    <h4 class="top__info-cn">Marci Metzger - THE RIDGE REALTY GROUP</h4>
+                    <p class="top__info-details">3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+                    <h4 class="top__info-details">(206) 919-6886</h4>
+                  </div>
+                  <div class="top__info-details-second-container">
+                    <h4 class="top__info-office-hours">Office Hours</h4>
+                    <div class="top__hours-container">
+                      <div class="top__current-day" id="toggleHours">
+                        <div class="top__status">
+                          <h4 class="top__status--fs">Open today</h4>
+                        </div>
+                        <div class="top__hours">08:00 am – 07:00 pm</div>
+                        <div class="top__arrow"><i class="fa-solid fa-chevron-down"></i></div>
+                      </div>
+                      <div class="top__schedule">
+                        <div class="top__day">Mon <span>08:00 am – 07:00 pm</span></div>
+                        <div class="top__day">Tue <span>08:00 am – 07:00 pm</span></div>
+                        <div class="top__day">Wed <span>08:00 am – 07:00 pm</span></div>
+                        <div class="top__day">Thu <span>08:00 am – 07:00 pm</span></div>
+                        <div class="top__day">Fri <span>08:00 am – 07:00 pm</span></div>
+                        <div class="top__day">Sat <span>08:00 am – 07:00 pm</span></div>
+                        <div class="top__day">Sun <span>08:00 am – 07:00 pm</span></div>
+                      </div>
+                    </div>
+                    <h5 class="top__info-od">Open daily 8:00 am - 7:00 pm</h5>
+                    <p class="top__info-description">Appointments outside office hours available upon request. Just
+                      call!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="top__contact-email-form">
+                <h4 class="top__contact-email-title">Message us!</h4>
+                <form class="top__contact-email-container" id="contactForm" action="#">
+                  <div class="top__contact-form-container">
+                    <label class="top__contact-name" for="name">Enter Name:</label><br>
+                    <input type="text" class="top__contact-form-input" id="name" name="name" required>
+                  </div>
+                  <div class="top__contact-form-container">
+                    <label class="top__contact-name" for="email">Enter Email:</label><br>
+                    <input type="email" class="top__contact-form-input" id="email" name="email" required>
+                  </div>
+                  <div class="top__contact-form-container">
+                    <label class="top__contact-name" for="message">Message:</label><br>
+                    <textarea id="message" name="message" class="top__contact-form-message" id="message"
+                      required></textarea>
+                  </div>
+                  <div class="top__contact-btn-container">
+                    <button class="top__contact-btn" type="submit" form="contactForm">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top__location">
+        <div class="wrapper">
+          <div class="container top__location-container">
+            <div class="top__location-title">
+              <h3 class="top__location-title--header-title">Visit Our Office</h3>
+              <p class="top__location-title--header-title-context">You can find us at our headquarters below</p>
+            </div>
+            <div class="top__location-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12881.090768148517!2d-115.97430761284183!3d36.18424940000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c639760f7b12f3%3A0xa05207dd285dc73c!2sTHE%20RIDGE%20REALTY%20GROUP!5e0!3m2!1sen!2sph!4v1761212283825!5m2!1sen!2sph"
+                width="1600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top__lp-logo">
+      <div class="wrapper">
+        <div class="container top__lp-logo-wrapper">
+          <div class="top__lp-logo-container">
+            <img src="./components/img/lp-logo1.webp" alt="">
+            <img src="./components/img/lp-logo2.webp" alt="">
+            <img src="./components/img/lp-logo3.webp" alt="">
+            <img src="./components/img/lp-logo4.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__container">
+        <div class="footer__icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-yelp"></i>
+        </div>
+        <p class="footer__cc">Copyright © 2023 Marci METZGER Homes - All Rights Reserved</p>
+        <div class="footer__line"></div>
+        <div class="footer__gd">
+          <h4>Powered by</h4>
+          <div class="footer__gd-image">
+            <img class="image" src="./components/img/GoDaddy.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./components/function/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</body>
+
+</html>
