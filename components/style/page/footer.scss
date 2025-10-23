@@ -1,0 +1,79 @@
+@use '../settings/color' as clr;
+@use '../settings/font-family' as ff;
+
+.footer {
+
+  &__wrapper {
+    position: relative;
+    height: 100%;
+    background-color: clr.$black1b1;
+    width: 100%;
+    padding-block: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 0;
+      top: -30px;
+      border-style: solid;
+      border-width: 0px 30px 30px;
+      border-color: clr.$black1b1 transparent;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 41px;
+  }
+
+  &__gd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__gd-image {
+    width: 131px;
+  }
+
+  &__icon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-size: 20px;
+    color: clr.$white;
+  }
+
+  &__cc {
+    color: clr.$graybdb;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  &__line {
+    width: 300px;
+    height: 1px;
+    background-color: clr.$graybdb;
+  }
+
+  &__gd {
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+  

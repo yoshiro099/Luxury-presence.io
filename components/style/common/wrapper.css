@@ -1,0 +1,8 @@
+.wrapper {
+  padding-inline: 30px;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding-inline: 5%;
+  }
+}/*# sourceMappingURL=wrapper.css.map */

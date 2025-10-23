@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Playfair-display";
+  src: url("/components/font-family/Playfair-display.ttf") format("ttf");
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.header__navbar {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__navbar:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 10px;
+  width: 0;
+  bottom: -40px;
+  border-style: solid;
+  border-width: 30px 30px 0px;
+  border-color: #fff transparent;
+}
+.header__navbar-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 20px;
+}
+.header__navbar-link {
+  display: flex;
+  gap: 50px;
+}
+.header__navbar-link-logo {
+  width: 450px;
+}
+.header__navbar-text {
+  color: #827c6c;
+  letter-spacing: 5px;
+  position: relative;
+  padding-bottom: 5px;
+}
+.header__navbar-text:hover {
+  color: #776637;
+}
+.header__navbar-text::before {
+  bottom: 0;
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background-color: #776637;
+  transition: 0.3s ease-in-out;
+}
+.header__navbar-text:hover::before {
+  width: 100%;
+}/*# sourceMappingURL=header.css.map */

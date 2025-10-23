@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Playfair-display";
+  src: url("/components/font-family/Playfair-display.ttf") format("ttf");
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playfair-display", serif;
+  background-color: #fff;
+}/*# sourceMappingURL=global.css.map */

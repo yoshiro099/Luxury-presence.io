@@ -1,0 +1,11 @@
+@use '../settings/font-family' as ff;
+@use '../settings/color' as clr;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: ff.$font-stack;
+  background-color: clr.$white;
+}

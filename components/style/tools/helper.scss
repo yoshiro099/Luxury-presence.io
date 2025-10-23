@@ -1,0 +1,17 @@
+@use '../settings/color' as clr;
+@use '../settings/font-family' as ff;
+
+.residential-title {
+  font-size: 24px;
+  padding-bottom: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: clr.$brown4a3;
+}
+
+.residential-details {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.6;
+}

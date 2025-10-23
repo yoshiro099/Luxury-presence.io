@@ -1,0 +1,71 @@
+@use '../settings/font-family' as ff;
+@use '../settings/color' as clr;
+@use '../tools/media-queries' as mq;
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  
+  &__navbar {
+    position: relative;
+    background-color: clr.$white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 10px;
+      width: 0;
+      bottom: -40px;
+      border-style: solid;
+      border-width: 30px 30px 0px;
+      border-color: clr.$white transparent;
+    }
+  }
+
+  &__navbar-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  &__navbar-link {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__navbar-link-logo {
+    width: 450px;
+  }
+
+  &__navbar-text {
+    color: clr.$brown826;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 5px;
+
+    &:hover {
+      color: clr.$brown776;
+    }
+
+    &::before {
+      bottom: 0;
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 0;
+      background-color: clr.$brown776;
+      transition: 0.3s ease-in-out;
+    }
+
+    &:hover::before {
+        width: 100%;
+      }
+  }
+}
